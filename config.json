@@ -1,0 +1,42 @@
+{
+  "name": "KqwqK",
+  "title": "KqwqK",
+  "description": "A personal photo gallery powered by Afilmory.",
+  "url": "https://afilmory.vercel.app/",
+  "accentColor": "#007bff",
+  "author": {
+    "name": "KqwqK",
+    "url": "https://github.com/Afilmory/afilmory",
+    "avatar": "/favicon.svg"
+  },
+  "social": {
+    "github": "Afilmory",
+    "twitter": ""
+  },
+  "feed": {
+    "folo": {
+      "challenge": {
+        "feedId": "",
+        "userId": ""
+      }
+    }
+  },
+  "map": [
+    "maplibre"
+  ],
+  "mapStyle": "builtin",
+  "mapProjection": "mercator",
+  "beian": {
+    "icp": {
+      "enabled": false,
+      "number": "",
+      "link": "https://beian.miit.gov.cn/"
+    },
+    "police": {
+      "enabled": false,
+      "number": "",
+      "code": "",
+      "icon": ""
+    }
+  }
+}
