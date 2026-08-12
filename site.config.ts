@@ -79,15 +79,15 @@ interface Social {
 }
 
 const defaultConfig: SiteConfig = {
-  name: 'New Afilmory',
-  title: 'New Afilmory',
+  name: 'KqwqK',
+  title: 'KqwqK',
   description: 'A modern photo gallery website.',
   url: 'https://afilmory.art',
   accentColor: '#007bff',
   author: {
-    name: 'Afilmory',
+    name: 'KqwqK',
     url: 'https://afilmory.art/',
-    avatar: 'https://cdn.jsdelivr.net/gh/Afilmory/Afilmory@main/logo.jpg',
+    avatar: '/favicon.svg',
   },
 }
 export const siteConfig: SiteConfig = merge(defaultConfig, userConfig) as any
