@@ -1,7 +1,6 @@
 import type { Plugin } from 'vite'
 
 import { cleanupOldOGImages } from '../../../../scripts/cleanup-og-images.js'
-import { generateFavicons } from '../../../../scripts/generate-favicon.js'
 import { generateOGImage } from '../../../../scripts/generate-og-image.js'
 
 interface OGImagePluginOptions {
@@ -29,9 +28,6 @@ export function ogImagePlugin(options: OGImagePluginOptions = {}): Plugin {
       const fileName = `og-image-${timestamp}.png`
 
       try {
-        // 生成 favicon
-        await generateFavicons()
-
         // 生成 OG 图片
         await generateOGImage({
           title,
